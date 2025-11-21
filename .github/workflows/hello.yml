@@ -1,4 +1,11 @@
 name: il mio primo git hubaction
 on:
   push:
-  
+jobs:
+  italian-job:
+    runs-on: ubuntu-lates
+    steps:
+      - run: ls
+      - run: sudo apt update
+      - run: pwd
+      - run: ls -la
