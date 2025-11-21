@@ -13,6 +13,6 @@ jobs:
       - run: java --version
       - run: ls
       - run: pwd
-        working-directory: cd template-progetto
+        working-directory: template-progetto
       - run: mvn install
-        working-directory: cd template-progetto
+        working-directory: template-progetto
